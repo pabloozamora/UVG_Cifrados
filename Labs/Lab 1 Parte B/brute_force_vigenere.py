@@ -18,6 +18,8 @@ def vigenere_decrypt(text, key):
             decrypted_text += char
     return decrypted_text
 
+# Prompt realizado a GPT-4o: ¿Cómo podría realizar una función de Python que utilice fuerza bruta para descifrar un texto Vigenere?
+# Asegúrate de utilizar chi cuadrado para evaluar la calidad de las posibles claves.
 def brute_force_vigenere(text, max_key_length=6, prefix=""):
     """ Prueba todas las posibles claves de longitud 1 a max_key_length en Vigenère """
     possible_keys = []

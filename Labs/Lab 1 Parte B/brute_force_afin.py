@@ -23,7 +23,7 @@ def afin_decrypt(text, a, b):
             decrypted_text += char
     return decrypted_text
 
-
+# Prompt realizado a GPT-4o: ¿Cómo puedo hacer un algoritmo en Python que, mediante fuerza bruta, descifre un mensaje cifrado en afines?
 def brute_force_afines(text):
     possible_keys = []
 

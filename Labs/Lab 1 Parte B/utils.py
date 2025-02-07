@@ -61,6 +61,7 @@ def frequency_analysis(text):
 
     return frequency
 
+# Prompt realizado a GPT-4o: ¿Cuál es la mejor métrica que podría usar para comparar dos distribuciones de frecuencias?
 def chi_squared_score(decrypted_text):
     '''Calcula el puntaje Chi-cuadrado de un texto en comparación a las frecuencias teóricas del español.'''
 
