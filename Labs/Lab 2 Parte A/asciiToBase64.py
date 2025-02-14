@@ -38,7 +38,8 @@ def ascii_to_base64(text):
         # Mapear el valor decimal al alfabeto Base64
         base64_result.append(base_64_alphabet[decimal_value])
 
-    base64_result = ''.join(base64_result) + '=' * int(padding_needed / 2)
+    # Agregar padding de Base64 si es necesario
+    base64_result = ''.join(base64_result) + '=' * ((4 - len(base64_result) % 4) % 4)
     return base64_result
 
 if __name__ == "__main__":
