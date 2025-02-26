@@ -11,7 +11,7 @@ Este ejercicio implementa un Stream Cipher basado en la operación XOR con un ke
 No se requieren dependencias externas. Solo se necesita tener Python instalado en el sistema.
 
 ## 🔐 Uso
-Se utiliza la función *stream_cipher(texto, clave)* tanto para cifrar como para descifrar un mensaje. Esta función imprime automáticamente el keystream generado a partir de la llave.
+Se utiliza la función *stream_cipher(texto, clave)* tanto para cifrar como para descifrar un mensaje. Esta función imprime automáticamente el keystream generado a partir de la clave.
 
 
 
