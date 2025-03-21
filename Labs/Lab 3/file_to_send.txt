@@ -1,0 +1,1 @@
+Este archivo sirve para enviarse a un servidor.
