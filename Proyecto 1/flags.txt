@@ -1,0 +1,11 @@
+--- Luffy Challenge ---
+FLAG_2d097bae6c9c3ee0ef4c35dca5c45262
+
+--- Zoro Challenge ---
+FLAG_1960dcb75723d87a1b6ad8353556b4b1
+
+--- Usopp Challenge ---
+FLAG_92421d59acc94abdea2f458c6c2b33ce
+
+--- Nami Challenge ---
+FLAG_0224ff72d19b8222418dac7ca5f60531
